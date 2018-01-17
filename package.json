@@ -1,0 +1,31 @@
+{
+  "name": "lamport-signature",
+  "version": "1.0.0",
+  "description": "lamport-signature in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffallen6767/lamport-signature.git"
+  },
+  "keywords": [
+    "lamport signature"
+  ],
+  "author": "jeff allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffallen6767/lamport-signature/issues"
+  },
+  "homepage": "https://github.com/jeffallen6767/lamport-signature#readme",
+  "devDependencies": {
+    "testing": "https://github.com/jeffallen6767/testing.git"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "keccak-p-js": "git://github.com/jeffallen6767/keccak-p-js.git",
+    "sodium": "2.0.1"
+  }
+}
